@@ -52,13 +52,13 @@ https://templatemo.com/tm-558-klassy-cafe
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                            <img src="assets/images/klassy-logo.png" align="klassy cafe html template">
+                            <img src="assets/images/logo.png" >
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Accueil</a></li>
-                            <li class="scroll-to-section"><a href="#about">Restaurants</a></li>
+                            <li class="scroll-to-section"><a href="#top" >Accueil</a></li>
+                            <li class="scroll-to-section"><a href="./restaurants.html">Restaurants</a></li>
                            	
                         <!-- 
                             <li class="submenu">
@@ -70,9 +70,9 @@ https://templatemo.com/tm-558-klassy-cafe
                                 </ul>
                             </li>
                         -->
-                            <li class="scroll-to-section"><a href="#menu">Café</a></li>
-                            <li class="scroll-to-section"><a href="#chefs">Patisseries</a></li> 
-                            <li class="scroll-to-section"><a href="#Contacts">Contacts</a></li>
+                            <li class="scroll-to-section"><a href="./menu.html">Café</a></li>
+                            <li class="scroll-to-section"><a href="./patisseries.html">Patisseries</a></li> 
+                            <li class="scroll-to-section"><a href="./contact.html" class="active" >Contacts</a></li>
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -244,19 +244,7 @@ https://templatemo.com/tm-558-klassy-cafe
     <script src="assets/js/custom.js"></script>
     <script>
 
-        $(function() {
-            var selectedClass = "";
-            $("p").click(function(){
-            selectedClass = $(this).attr("data-rel");
-            $("#portfolio").fadeTo(50, 0.1);
-                $("#portfolio div").not("."+selectedClass).fadeOut();
-            setTimeout(function() {
-              $("."+selectedClass).fadeIn();
-              $("#portfolio").fadeTo(50, 1);
-            }, 500);
-                
-            });
-        });
+   
 
     </script>
   </body>
